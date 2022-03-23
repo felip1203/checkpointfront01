@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container-cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0e94ce;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+.menu li {
+    margin-left: 10px;
+}
+.menu li a {
+    padding: 15px;
+    background-color: black;
+}
+
+body {
+    background-image: url(../img/fundo\ novo.png);
+    
+}
+header {
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    max-width: 1280px;
+    min-width: 425px;
+}
+footer {
+    margin: auto;
+    max-width: 1280px;
+    min-width: 425px;
+}
+
+.container-main {
+    display: block;
+}
+
+.banner {
+    background-image: url(../img/Arujá-aereo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+.titulo-banner {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 80px 50px 80px;
+    font-size: 50px;
+    
+}
+.texto-banner {
+    color: white;
+    text-align: center;
+    padding: 0px 150px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+h2 {
+    padding: 90px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+article {
+    width: 335px;
+    height: 534px;
+    background-color: #0e94ce;
+    border-radius: 31px
+}
+
+.curiosidade01 {
+    background-image: url(../img/food-truck.png);
+    background-repeat: no-repeat;
+}
+.curiosidade02 {
+    background-image: url(../img/nippon.png);
+    background-repeat: no-repeat;
+}
+.curiosidade03 {
+    background-image: url(../img/igreja.png);
+    background-repeat: no-repeat;
+}
+
+.card-titulo {
+    color: white;
+    text-align: center;
+    margin-top: 290px;;
+}
+
+.card-descricao {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 150%;
+    padding: 0 30px;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+}
+.video-main {
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    border-radius: 31px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.container-footer {
+    width: 1280px;
+    height: 414px;
+    background-color: #0e94ce;
+    margin-top: 120px;
+}
+h3 {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: 70px;
+    color: white;
+}
+.footer-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 128px;
+}
+h4 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5 {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+@media (max-width: 425px) {
+    body {
+        width: 100%;
+    }
+    .menu ul  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .texto-banner {
+        padding: 30px;
+    }
+    h1, h2 ,h3 {
+        text-align: center;
+    }
+    ul {
+        flex-direction: column;
+        padding: none;      
+    }
+    .menu li a {
+        padding: 0;
+        background-color: none;
+    }
+}
+
